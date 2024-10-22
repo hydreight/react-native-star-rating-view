@@ -74,8 +74,8 @@ export const StarLog = _StarLog;
 
 export default class StarRatingView extends Component {
     static propTypes = {
-        style: RNViewPropTypes.style,
-        starStyle: RNViewPropTypes.style, // 自定义星星样式
+        style: RNViewPropTypes?.style,
+        starStyle: RNViewPropTypes?.style, // 自定义星星样式
         readOnly: RNPropTypes.bool, // 是否只读
         continuous: RNPropTypes.bool, // 是否允许滑动打分
         maximumValue: RNPropTypes.number.isRequired, // 最大值
